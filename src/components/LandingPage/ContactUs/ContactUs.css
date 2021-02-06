@@ -1,0 +1,13 @@
+.contact-us-container{
+    background-color: #FBD062;
+    padding: 50px 0px;
+}
+.contact-content h2{
+    font-family: 'Russo One', sans-serif;
+    margin-bottom: 20px;
+}
+.contact-content p {
+    width: 75%;
+    color: #353535;
+    font-family: unset;
+}

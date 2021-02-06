@@ -1,0 +1,18 @@
+.client-feedback-container{
+    padding: 100px 0px;
+}
+.feddback {
+    padding: 12px;
+    margin: 10px;
+    border: 1px solid #dcd6d6;
+}
+.feddback img{
+    width: 60px;
+    margin-right: 10px;
+}
+.feddback p {
+    font-size: 15px;
+    font-family: inherit;
+    color: #565656;
+    margin-top: 15px;
+}

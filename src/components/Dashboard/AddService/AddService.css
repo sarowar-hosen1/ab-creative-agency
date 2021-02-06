@@ -1,0 +1,32 @@
+.add-service-container{
+    width:100%;
+    height: 100vh;
+}
+.add-service-container form{
+    width:50%;
+    padding: 20px;
+}
+#add-service-file {
+    background: #57d07280;
+    padding: 9px 20px;
+    border: 1px solid #27d427;
+    color: #106110;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.add-service-container form .form-control {
+    padding:25px 10px;
+}
+
+@media screen and (max-width:768px) {
+    .add-service-container form{
+        width:85%;
+        padding: 20px;
+    }
+}
+@media screen and (max-width:425px) {
+    .add-service-container form{
+        width:100%;
+        padding: 20px;
+    }
+}

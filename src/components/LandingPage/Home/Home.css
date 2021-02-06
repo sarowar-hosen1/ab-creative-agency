@@ -1,0 +1,16 @@
+.home{
+    position: relative;
+    background-color: #FBD062;
+    background-position: center;
+    background-size: cover;
+}
+.home::before{
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: white;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}

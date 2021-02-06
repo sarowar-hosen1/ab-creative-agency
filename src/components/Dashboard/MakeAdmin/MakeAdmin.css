@@ -1,0 +1,23 @@
+.make-admin-container{
+    width: 100%;
+    height: 100vh;
+}
+.make-admin-form{
+    width: 100%;
+    padding: 20px;
+}
+.make-admin-form form .form-control{
+    padding:20px 10px;
+}
+@media screen and (max-width:768px){
+    .make-admin-form{
+        width: 80%;
+        padding: 20px;
+    }
+}
+@media screen and (max-width:425px){
+    .make-admin-form{
+        width: 95%;
+        padding: 20px;
+    }
+}

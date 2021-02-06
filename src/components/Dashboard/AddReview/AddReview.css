@@ -1,0 +1,26 @@
+.add-review-container{
+    width:100%;
+    height: 100vh;
+}
+.review-form{
+    width:50%;
+    padding:20px;
+}
+.review-form form .form-control{
+    padding:20px 10px;
+}
+.review-form form span{
+    color:red;
+}
+@media screen and (max-width:768px){
+    .review-form{
+        width:80%;
+        padding:20px;
+    }
+}
+@media screen and (max-width:425px){
+    .review-form{
+        width:100%;
+        padding:20px;
+    }
+}

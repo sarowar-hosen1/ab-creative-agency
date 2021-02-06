@@ -1,0 +1,34 @@
+.nav-brand{
+    width:150px;
+    height: 40px;
+}
+.nav-item a {
+    position: relative;
+    color: #1f1f1f;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 500;
+    margin: 10px 8px;
+}
+.nav-item a:hover{
+    color: black;
+}
+.nav-item a::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    width:0;
+    transition: all 0.5s;
+}
+.nav-item a:hover:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    border: 1px solid #27AC71;
+}
+button.nav-link.btn-brand.px-4.text-white {
+    margin: 10px;
+}
